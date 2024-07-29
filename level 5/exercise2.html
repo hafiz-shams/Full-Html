@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit.php" method="post">
+        UserName: <input type="text"><br>
+        <label for="email"> Email:</label>
+        <input type="email" placeholder="ex.hanzla@gmail.com" required="true"><br>
+        <label for="birthday">Date:</label>
+        <input type="date" placeholder="birthdate"><br>
+        <label for="File"> choosefile  :    </label>
+        <input type="file" placeholder="ssc-result"><br>
+       password: <input type="password" placeholder="password"><br>
+       <label for="button"> Click ME</label>
+       <input type="button" value="Click"><br>
+       <form action="/contact-me">
+       <label for="country"> select for country</label>
+       <select name="country" id="country">
+       <option value="Pakistan">Pakistan</option>
+       <option value="Afghanistan">Afghanistan</option>
+       <option value="us">US</option>
+       <option value="India">India</option>
+    </select>
+    </form><br>
+       <form action="/contact-me">
+       <label for="male">Male:</label>
+       <input type="radio" id="male" name="Gender" value="male"><br>
+       <label for="Female">Female:</label>
+       <input type="radio" id="Female" name="Gender" value="Female"><br>
+       <label for="other">other:</label>
+       <input type="radio" id="other" name="Gender" value="other" >
+    </form><br>
+       <form action="/contact-me">
+        <label for="Hobies">Hobies</label><br>
+        <label for="gaming">gaming:</label>
+        <input type="checkbox" name="Hobies" id="gaming" value="gaming"><br>
+        <label for="football">football:</label>
+        <input type="checkbox" name="Hobies" id="football" value="football"><br>
+        <label for="cricket">cricket:</label>
+        <input type="checkbox" name="Hobies" id="cricket"  value="cricket">
+       </form><br>
+       <form action="/contact-me">
+        <label for="religion">Religion</label>
+        <select name="religion" id="religion">
+            <option value="Islam">Islam</option>
+            <option value="Hindu">Hindu</option>
+            <option value="Sikh">Sikh</option>
+            <option value="other">other</option>
+           
+        </select><br>
+        <input type="submit">
+       </form>
+
+    </form>
+</body>
+</html>
